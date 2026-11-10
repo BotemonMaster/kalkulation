@@ -1,0 +1,507 @@
+{
+ "version": 1,
+ "settings": {
+  "vatLiable": true,
+  "vatRate": 0.19,
+  "daysPerMonth": 30,
+  "roundTo": 10,
+  "profitTarget": 0,
+  "scenarioId": "standort",
+  "dashboardChannelId": "shop",
+  "setupDone": false
+ },
+ "suppliers": [
+  {
+   "id": "rala",
+   "name": "Rala Team",
+   "contact": "",
+   "email": "",
+   "phone": "",
+   "website": "www.ralateam.com",
+   "notes": ""
+  },
+  {
+   "id": "labelident",
+   "name": "Labelident",
+   "contact": "",
+   "email": "",
+   "phone": "",
+   "website": "www.labelident.com",
+   "notes": ""
+  },
+  {
+   "id": "dhl",
+   "name": "DHL",
+   "contact": "",
+   "email": "",
+   "phone": "",
+   "website": "www.dhl.de",
+   "notes": ""
+  },
+  {
+   "id": "stedman",
+   "name": "Stedman GmbH",
+   "contact": "",
+   "email": "",
+   "phone": "",
+   "website": "www.stedman.eu",
+   "notes": ""
+  },
+  {
+   "id": "ralawise",
+   "name": "Ralawise",
+   "contact": "",
+   "email": "",
+   "phone": "",
+   "website": "www.ralawise.com",
+   "notes": ""
+  },
+  {
+   "id": "lshop",
+   "name": "L-SHOP-TEAM",
+   "contact": "",
+   "email": "",
+   "phone": "",
+   "website": "www.l-shop-team.de",
+   "notes": ""
+  },
+  {
+   "id": "groener",
+   "name": "Gröner-Schulze",
+   "contact": "",
+   "email": "",
+   "phone": "",
+   "website": "www.groener-schulze.com",
+   "notes": ""
+  },
+  {
+   "id": "ofix",
+   "name": "ofixdo (Maxoris GmbH)",
+   "contact": "",
+   "email": "",
+   "phone": "",
+   "website": "ofixdo.de",
+   "notes": ""
+  }
+ ],
+ "textiles": [],
+ "products": [],
+ "offers": [],
+ "staff": [],
+ "materials": [
+  {
+   "id": "film",
+   "role": "film",
+   "name": "A3-Folie",
+   "price": 0,
+   "procurement": 0,
+   "quantity": 2000,
+   "unit": "Blatt",
+   "basis": "netto",
+   "supplierId": "",
+   "note": ""
+  },
+  {
+   "id": "powder",
+   "role": "powder",
+   "name": "DTF-Pulver",
+   "price": 0,
+   "procurement": 0,
+   "quantity": 20000,
+   "unit": "g",
+   "basis": "netto",
+   "supplierId": "",
+   "note": ""
+  },
+  {
+   "id": "ink-cmyk",
+   "role": "inkCmyk",
+   "name": "Tinte CMYK",
+   "price": 0,
+   "procurement": 0,
+   "quantity": 700,
+   "unit": "ml",
+   "basis": "netto",
+   "supplierId": "",
+   "note": ""
+  },
+  {
+   "id": "ink-white",
+   "role": "inkWhite",
+   "name": "Tinte Weiß",
+   "price": 0,
+   "procurement": 0,
+   "quantity": 1400,
+   "unit": "ml",
+   "basis": "netto",
+   "supplierId": "",
+   "note": ""
+  },
+  {
+   "id": "bag",
+   "role": "bag",
+   "name": "Versandtasche",
+   "price": 0,
+   "procurement": 0,
+   "quantity": 5000,
+   "unit": "Stück",
+   "basis": "netto",
+   "supplierId": "",
+   "note": ""
+  },
+  {
+   "id": "label",
+   "role": "label",
+   "name": "Versandetikett",
+   "price": 0,
+   "procurement": 0,
+   "quantity": 5000,
+   "unit": "Stück",
+   "basis": "brutto",
+   "supplierId": "",
+   "note": ""
+  },
+  {
+   "id": "shipping",
+   "role": "shipping",
+   "name": "DHL Kleinpaket",
+   "price": 0,
+   "procurement": 0,
+   "quantity": 1,
+   "unit": "Sendung",
+   "basis": "netto",
+   "supplierId": "",
+   "note": ""
+  }
+ ],
+ "printUsage": {
+  "cmykMl": 0.78,
+  "whiteMl": 2.03,
+  "powderG": 12,
+  "filmSheets": 1
+ },
+ "fixedCosts": [
+  {
+   "id": "fc-internet",
+   "name": "Internet",
+   "category": "Betrieb",
+   "amount": 0,
+   "basis": "netto",
+   "interval": "monthly",
+   "active": true
+  },
+  {
+   "id": "fc-strom",
+   "name": "Betriebsstrom",
+   "category": "Betrieb",
+   "amount": 0,
+   "basis": "netto",
+   "interval": "monthly",
+   "active": true
+  },
+  {
+   "id": "fc-shop",
+   "name": "Shopsoftware / Hosting",
+   "category": "Software",
+   "amount": 0,
+   "basis": "netto",
+   "interval": "monthly",
+   "active": true
+  },
+  {
+   "id": "fc-werbung",
+   "name": "Werbebudget fix",
+   "category": "Marketing",
+   "amount": 0,
+   "basis": "netto",
+   "interval": "monthly",
+   "active": true
+  },
+  {
+   "id": "fc-buchhaltung",
+   "name": "Buchhaltung / Lohnabrechnung",
+   "category": "Verwaltung",
+   "amount": 0,
+   "basis": "netto",
+   "interval": "monthly",
+   "active": true
+  },
+  {
+   "id": "fc-versicherung",
+   "name": "Versicherungen",
+   "category": "Verwaltung",
+   "amount": 0,
+   "basis": "netto",
+   "interval": "monthly",
+   "active": true
+  },
+  {
+   "id": "fc-wartung",
+   "name": "Wartung / Reparaturen",
+   "category": "Betrieb",
+   "amount": 0,
+   "basis": "netto",
+   "interval": "monthly",
+   "active": true
+  },
+  {
+   "id": "fc-afa",
+   "name": "Abschreibung / Leasing",
+   "category": "Betrieb",
+   "amount": 0,
+   "basis": "netto",
+   "interval": "monthly",
+   "active": true
+  },
+  {
+   "id": "fc-sonstiges",
+   "name": "Sonstige Fixkosten",
+   "category": "Sonstiges",
+   "amount": 0,
+   "basis": "netto",
+   "interval": "monthly",
+   "active": true
+  }
+ ],
+ "scenarios": [
+  {
+   "id": "standort",
+   "name": "Standort",
+   "area": 0,
+   "rentPerM2": 0,
+   "extraPerM2": 0
+  }
+ ],
+ "channels": [
+  {
+   "id": "shop",
+   "name": "Eigener Shop",
+   "active": true,
+   "monthlyFee": 0,
+   "tierMode": "whole",
+   "tiers": [],
+   "minCommission": 0,
+   "paymentRate": 0.015,
+   "paymentFixed": 0,
+   "orderFee": 0.25,
+   "orderFeeHigh": "",
+   "orderFeeThreshold": "",
+   "listingFee": 0,
+   "adRate": 0,
+   "adShare": 0,
+   "perItemFee": 0,
+   "note": "",
+   "plans": []
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "active": true,
+   "monthlyFee": 0,
+   "tierMode": "whole",
+   "tiers": [
+    {
+     "upTo": 15,
+     "rate": 0.05,
+     "id": "t-dy717tv"
+    },
+    {
+     "upTo": 20,
+     "rate": 0.1,
+     "id": "t-0ptxqr4"
+    },
+    {
+     "upTo": null,
+     "rate": 0.15,
+     "id": "t-uvfct83"
+    }
+   ],
+   "minCommission": 0.3,
+   "paymentRate": 0,
+   "paymentFixed": 0,
+   "orderFee": 0,
+   "orderFeeHigh": "",
+   "orderFeeThreshold": "",
+   "listingFee": 0,
+   "adRate": 0,
+   "adShare": 0,
+   "perItemFee": 0,
+   "note": "",
+   "plans": [
+    {
+     "id": "einzel",
+     "name": "Einzelanbieter",
+     "monthlyFee": 0,
+     "perItemFee": 0.99
+    },
+    {
+     "id": "professional",
+     "name": "Professional",
+     "monthlyFee": 39,
+     "perItemFee": 0
+    }
+   ],
+   "planId": "einzel"
+  },
+  {
+   "id": "ebay",
+   "name": "eBay",
+   "active": true,
+   "monthlyFee": 0,
+   "tierMode": "marginal",
+   "tiers": [
+    {
+     "upTo": 990,
+     "rate": 0.12,
+     "id": "t-4t7n75x"
+    },
+    {
+     "upTo": null,
+     "rate": 0.03,
+     "id": "t-bddi9i4"
+    }
+   ],
+   "minCommission": 0,
+   "paymentRate": 0,
+   "paymentFixed": 0,
+   "orderFee": 0.35,
+   "orderFeeHigh": 0.45,
+   "orderFeeThreshold": 10,
+   "listingFee": 0,
+   "adRate": 0,
+   "adShare": 0,
+   "perItemFee": 0,
+   "note": "",
+   "plans": [
+    {
+     "id": "kein",
+     "name": "Kein Shop",
+     "monthlyFee": 0,
+     "perItemFee": ""
+    },
+    {
+     "id": "basis",
+     "name": "Basis-Shop",
+     "monthlyFee": 39.95,
+     "perItemFee": ""
+    },
+    {
+     "id": "top",
+     "name": "Top-Shop",
+     "monthlyFee": 79.95,
+     "perItemFee": ""
+    },
+    {
+     "id": "premium",
+     "name": "Premium-Shop",
+     "monthlyFee": 299.95,
+     "perItemFee": ""
+    },
+    {
+     "id": "platin",
+     "name": "Platin-Shop",
+     "monthlyFee": 4999.95,
+     "perItemFee": ""
+    }
+   ],
+   "planId": "kein"
+  },
+  {
+   "id": "etsy",
+   "name": "Etsy",
+   "active": true,
+   "monthlyFee": 0,
+   "tierMode": "whole",
+   "tiers": [
+    {
+     "upTo": null,
+     "rate": 0.065,
+     "id": "t-4u19fzj"
+    }
+   ],
+   "minCommission": 0,
+   "paymentRate": 0.04,
+   "paymentFixed": 0.3,
+   "orderFee": 0,
+   "orderFeeHigh": "",
+   "orderFeeThreshold": "",
+   "listingFee": 0.17,
+   "adRate": 0.15,
+   "adShare": 0,
+   "perItemFee": 0,
+   "note": "",
+   "plans": []
+  },
+  {
+   "id": "kaufland",
+   "name": "Kaufland",
+   "active": true,
+   "monthlyFee": 39.95,
+   "tierMode": "whole",
+   "tiers": [
+    {
+     "upTo": null,
+     "rate": 0.14,
+     "id": "t-gyuzs9v"
+    }
+   ],
+   "minCommission": 0,
+   "paymentRate": 0,
+   "paymentFixed": 0,
+   "orderFee": 0,
+   "orderFeeHigh": "",
+   "orderFeeThreshold": "",
+   "listingFee": 0,
+   "adRate": 0,
+   "adShare": 0,
+   "perItemFee": 0,
+   "note": "",
+   "plans": []
+  },
+  {
+   "id": "direkt",
+   "name": "Direkt / B2B",
+   "active": true,
+   "monthlyFee": 0,
+   "tierMode": "whole",
+   "tiers": [],
+   "minCommission": 0,
+   "paymentRate": 0,
+   "paymentFixed": 0,
+   "orderFee": 0,
+   "orderFeeHigh": "",
+   "orderFeeThreshold": "",
+   "listingFee": 0,
+   "adRate": 0,
+   "adShare": 0,
+   "perItemFee": 0,
+   "note": "",
+   "plans": []
+  }
+ ],
+ "flags": {
+  "productsFromTextiles": true
+ },
+ "b2b": {
+  "tiers": [
+   {
+    "minQty": 25,
+    "discount": 0.05
+   },
+   {
+    "minQty": 50,
+    "discount": 0.1
+   },
+   {
+    "minQty": 100,
+    "discount": 0.15
+   },
+   {
+    "minQty": 250,
+    "discount": 0.2
+   }
+  ],
+  "setupFee": 25,
+  "setupFreeFrom": 50
+ }
+}

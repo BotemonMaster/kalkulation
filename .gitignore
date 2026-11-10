@@ -1,0 +1,6 @@
+# Eigene Daten nie committen
+data/
+python/
+*.zip
+__pycache__/
+.DS_Store
